@@ -50,6 +50,7 @@ let s:dark_green = { "gui": "#62d196", "cterm": "119", "cterm16": "10"}
 
 let s:yellow = { "gui": "#ffe9aa", "cterm": "228", "cterm16": "3"}
 let s:dark_yellow = { "gui": "#ffb378", "cterm": "215", "cterm16": "11"}
+let s:pink = { "gui": "#ffb378", "cterm": "217", "cterm16": "12"}
 
 let s:blue = { "gui": "#91ddff", "cterm": "159", "cterm16": "4"}
 let s:dark_blue = { "gui": "#65b2ff", "cterm": "75", "cterm16": "12"}
@@ -160,7 +161,7 @@ call s:h("NonText",       {"fg": s:bg_dark})
 call s:h("Directory",     {"fg": s:purple})
 call s:h("ErrorMsg",      {"fg": s:dark_red})
 call s:h("IncSearch",     {"bg": s:red, "fg": s:clouds})
-call s:h("Search",        {"bg": s:bg_dark})
+call s:h("Search",        {"bg": s:pink, "fg": s:black})
 call s:h("MoreMsg",       {"fg": s:medium_gray, "gui": "bold", "cterm": "bold"})
 hi! link ModeMsg MoreMsg
 call s:h("LineNr",        {"fg": s:dark_asphalt, "bg": s:bg_subtle})
